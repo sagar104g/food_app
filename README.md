@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# My React App - Food Ordering System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my React app for ordering food online! This app allows users to browse through a menu, add items to their cart, and place an order with their address.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To run this application, you'll need to set up both the backend and frontend components.
 
-### `npm start`
+### Backend Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Navigate to the `backend` folder in your repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install dependencies using npm:
+    npm install
 
-### `npm test`
+Start the backend server:
+    node .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This command will start the backend server and allow the frontend to communicate with it.
 
-### `npm run build`
+Frontend Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Navigate to the root directory of your project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install frontend dependencies:
+    npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build the frontend assets:
+    npm run build
 
-### `npm run eject`
+This command will build the necessary frontend assets for production use.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the frontend server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm run preview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This command will start the frontend server, and you can access the application through your web browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Usage
+Once both the backend and frontend servers are running, you can access the application through your web browser. Here's a brief overview of how to use the app:
 
-## Learn More
+Browse the menu items available.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Add items to your cart by clicking the "Add to Cart" button.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Review your cart by clicking on the cart icon.
 
-### Code Splitting
+Proceed to checkout, where you can enter your address details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Place your order.
 
-### Analyzing the Bundle Size
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+License
+This project is licensed under the MIT License.
 
-### Making a Progressive Web App
+References :
+1. ChatGPT for menu + research (XD).
+2. stackoverflow debugging partner (:P).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Things To Do:
+1. Unit/e2e test cases
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+//transfer
+//haFTPq6Bf3LH73U
