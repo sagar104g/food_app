@@ -61,6 +61,3 @@ References :
 
 Things To Do:
 1. Unit/e2e test cases
-
-//transfer
-//haFTPq6Bf3LH73U
